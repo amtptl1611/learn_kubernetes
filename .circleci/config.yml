@@ -28,7 +28,7 @@ jobs:
     steps:
       - attach_workspace:
           at: /tmp/workspace
-      - setup_remove_docker
+      - setup_remote_docker
       - run:
           name: Load Archived Docker Image
           command: docker load -i /tmp/workspace/image.tar

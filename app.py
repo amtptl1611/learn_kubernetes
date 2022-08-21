@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello from Docker!'
+    return 'ArgoCD Demo.. Working!'
